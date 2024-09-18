@@ -13,7 +13,7 @@ The `Image Painting Assistant` node can assist you in converting images to paint
 
 ## Inspyrenet Rembg Assistant
 
-The `Inspyrenet Rembg Assistant` node can be used to ensure that the original background of an image doesn't reappear when the image is inputed into comfyUI nodes that do not retain the alpha channel in images like the Video Combine custom node.
+The `Inspyrenet Rembg Assistant` node can be used to ensure that the original background of an image doesn't reappear when the image is inputed into comfyUI nodes that do not retain the alpha channel in images like the Video Combine custom node. It can also be used to create a greenscreen or use other colors for the background.
 
 <div align="center">
 
