@@ -1,0 +1,394 @@
+{
+  "last_node_id": 57,
+  "last_link_id": 143,
+  "nodes": [
+    {
+      "id": 51,
+      "type": "PreviewImage",
+      "pos": [
+        1163,
+        106
+      ],
+      "size": {
+        "0": 307.0596923828125,
+        "1": 284.7433776855469
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 119
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 46,
+      "type": "PreviewImage",
+      "pos": [
+        835,
+        454
+      ],
+      "size": {
+        "0": 307.8278503417969,
+        "1": 288.83892822265625
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 139
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 36,
+      "type": "PreviewImage",
+      "pos": [
+        827,
+        104
+      ],
+      "size": {
+        "0": 307.0596923828125,
+        "1": 284.7433776855469
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 111
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 50,
+      "type": "Painting",
+      "pos": [
+        476,
+        478
+      ],
+      "size": {
+        "0": 315,
+        "1": 246
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 113
+        },
+        {
+          "name": "lineArt",
+          "type": "IMAGE",
+          "link": 138
+        }
+      ],
+      "outputs": [
+        {
+          "name": "painting",
+          "type": "IMAGE",
+          "links": [
+            119
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "sharpImage",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Painting"
+      },
+      "widgets_values": [
+        26,
+        1,
+        7,
+        2,
+        0,
+        1.1,
+        1.4000000000000001,
+        1
+      ]
+    },
+    {
+      "id": 37,
+      "type": "LoadImage",
+      "pos": [
+        97,
+        101
+      ],
+      "size": {
+        "0": 354.43243408203125,
+        "1": 347.2381591796875
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            110,
+            113,
+            143
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "ComfyUI_00332_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "PreviewImage",
+      "pos": [
+        1164,
+        449
+      ],
+      "size": {
+        "0": 314.92449951171875,
+        "1": 288.59783935546875
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 117
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 49,
+      "type": "Painting",
+      "pos": [
+        482,
+        105
+      ],
+      "size": {
+        "0": 315,
+        "1": 246
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 110
+        },
+        {
+          "name": "lineArt",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "painting",
+          "type": "IMAGE",
+          "links": [
+            111
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "sharpImage",
+          "type": "IMAGE",
+          "links": [
+            117
+          ],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Painting"
+      },
+      "widgets_values": [
+        21.3333740234375,
+        1,
+        7,
+        1,
+        0,
+        1.1,
+        1.5000000000000002,
+        1
+      ]
+    },
+    {
+      "id": 57,
+      "type": "Sketch_Assistant_grayScale",
+      "pos": [
+        122,
+        515
+      ],
+      "size": {
+        "0": 315,
+        "1": 198
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 143
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sketch",
+          "type": "IMAGE",
+          "links": [
+            138,
+            139
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "grayscale image",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Sketch_Assistant_grayScale"
+      },
+      "widgets_values": [
+        10,
+        25,
+        240,
+        2,
+        100,
+        1
+      ]
+    }
+  ],
+  "links": [
+    [
+      110,
+      37,
+      0,
+      49,
+      0,
+      "IMAGE"
+    ],
+    [
+      111,
+      49,
+      0,
+      36,
+      0,
+      "IMAGE"
+    ],
+    [
+      113,
+      37,
+      0,
+      50,
+      0,
+      "IMAGE"
+    ],
+    [
+      117,
+      49,
+      1,
+      48,
+      0,
+      "IMAGE"
+    ],
+    [
+      119,
+      50,
+      0,
+      51,
+      0,
+      "IMAGE"
+    ],
+    [
+      138,
+      57,
+      0,
+      50,
+      1,
+      "IMAGE"
+    ],
+    [
+      139,
+      57,
+      0,
+      46,
+      0,
+      "IMAGE"
+    ],
+    [
+      143,
+      37,
+      0,
+      57,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.6105100000000154,
+      "offset": [
+        -37.025603722675164,
+        -30.875451026604647
+      ]
+    }
+  },
+  "version": 0.4
+}

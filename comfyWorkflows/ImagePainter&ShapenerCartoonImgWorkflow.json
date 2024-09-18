@@ -1,0 +1,308 @@
+{
+  "last_node_id": 46,
+  "last_link_id": 103,
+  "nodes": [
+    {
+      "id": 44,
+      "type": "LineArtPreprocessor",
+      "pos": [
+        119,
+        693
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 99
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            101
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LineArtPreprocessor"
+      },
+      "widgets_values": [
+        "disable",
+        512
+      ]
+    },
+    {
+      "id": 36,
+      "type": "PreviewImage",
+      "pos": [
+        851,
+        267
+      ],
+      "size": {
+        "0": 307.0596923828125,
+        "1": 284.7433776855469
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 95
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 46,
+      "type": "PreviewImage",
+      "pos": [
+        853,
+        599
+      ],
+      "size": [
+        307.8278627293007,
+        288.8389425173008
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 103
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 37,
+      "type": "LoadImage",
+      "pos": [
+        97,
+        267
+      ],
+      "size": {
+        "0": 340.23187255859375,
+        "1": 333.410888671875
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            94,
+            99
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "bindi-2416039__480.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "Painting",
+      "pos": [
+        472,
+        267
+      ],
+      "size": {
+        "0": 315,
+        "1": 222
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 94
+        },
+        {
+          "name": "lineArt",
+          "type": "IMAGE",
+          "link": 102
+        }
+      ],
+      "outputs": [
+        {
+          "name": "painting",
+          "type": "IMAGE",
+          "links": [
+            95
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "sharpImage",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Painting"
+      },
+      "widgets_values": [
+        21,
+        1,
+        7,
+        2,
+        0,
+        1,
+        1.3
+      ]
+    },
+    {
+      "id": 45,
+      "type": "LineArt_Assistant_2",
+      "pos": [
+        476,
+        599
+      ],
+      "size": {
+        "0": 315,
+        "1": 246
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "lineArt",
+          "type": "IMAGE",
+          "link": 101
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lineArt",
+          "type": "IMAGE",
+          "links": [
+            102,
+            103
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "default",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LineArt_Assistant_2"
+      },
+      "widgets_values": [
+        240,
+        0,
+        "black",
+        10,
+        "white",
+        10,
+        true,
+        true
+      ]
+    }
+  ],
+  "links": [
+    [
+      94,
+      37,
+      0,
+      43,
+      0,
+      "IMAGE"
+    ],
+    [
+      95,
+      43,
+      0,
+      36,
+      0,
+      "IMAGE"
+    ],
+    [
+      99,
+      37,
+      0,
+      44,
+      0,
+      "IMAGE"
+    ],
+    [
+      101,
+      44,
+      0,
+      45,
+      0,
+      "IMAGE"
+    ],
+    [
+      102,
+      45,
+      0,
+      43,
+      1,
+      "IMAGE"
+    ],
+    [
+      103,
+      45,
+      0,
+      46,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.1167815779424914,
+      "offset": [
+        207.7390065069961,
+        -150.61605606961785
+      ]
+    }
+  },
+  "version": 0.4
+}

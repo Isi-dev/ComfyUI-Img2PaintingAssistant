@@ -1,0 +1,224 @@
+{
+  "last_node_id": 61,
+  "last_link_id": 143,
+  "nodes": [
+    {
+      "id": 59,
+      "type": "PreviewImage",
+      "pos": [
+        870,
+        101
+      ],
+      "size": [
+        210,
+        246
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 135
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 61,
+      "type": "Sketch_Assistant_grayScale",
+      "pos": [
+        501,
+        373
+      ],
+      "size": {
+        "0": 315,
+        "1": 198
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 142
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sketch",
+          "type": "IMAGE",
+          "links": [
+            143
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "grayscale image",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Sketch_Assistant_grayScale"
+      },
+      "widgets_values": [
+        10,
+        21,
+        245,
+        2,
+        100,
+        1
+      ]
+    },
+    {
+      "id": 43,
+      "type": "Painting",
+      "pos": [
+        499,
+        99
+      ],
+      "size": {
+        "0": 315,
+        "1": 222
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 136
+        },
+        {
+          "name": "lineArt",
+          "type": "IMAGE",
+          "link": 143
+        }
+      ],
+      "outputs": [
+        {
+          "name": "painting",
+          "type": "IMAGE",
+          "links": [
+            135
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "sharpImage",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Painting"
+      },
+      "widgets_values": [
+        21,
+        1,
+        7,
+        2.000000000000001,
+        0,
+        1,
+        1.3
+      ]
+    },
+    {
+      "id": 58,
+      "type": "LoadImage",
+      "pos": [
+        135,
+        98
+      ],
+      "size": [
+        315,
+        314.00000762939453
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            136,
+            142
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "baby.png",
+        "image"
+      ]
+    }
+  ],
+  "links": [
+    [
+      135,
+      43,
+      0,
+      59,
+      0,
+      "IMAGE"
+    ],
+    [
+      136,
+      58,
+      0,
+      43,
+      0,
+      "IMAGE"
+    ],
+    [
+      142,
+      58,
+      0,
+      61,
+      0,
+      "IMAGE"
+    ],
+    [
+      143,
+      61,
+      0,
+      43,
+      1,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.9784466890014423,
+      "offset": [
+        38.89930836716803,
+        7.440567995095705
+      ]
+    }
+  },
+  "version": 0.4
+}
