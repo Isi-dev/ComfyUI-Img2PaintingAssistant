@@ -3,7 +3,7 @@ These are ComfyUI nodes to assist in converting an image to paintings and to ass
 
 ## Image Painting Assistant
 
-The `Image Painting Assistant` node can assist you in converting images to paintings, cartoon images, and it can also be used to sharpen and lighten the input image.
+The `Image Painting Assistant` node can assist you in converting images to paintings and cartoon images. It can also be used to sharpen and lighten the input image.
 
 <div align="center">
 
