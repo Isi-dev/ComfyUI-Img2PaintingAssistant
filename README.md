@@ -3,7 +3,7 @@ These are ComfyUI nodes to assist in converting an image to paintings and to ass
 
 ## Image Painting Assistant
 
-The `Image Painting Assistant` node can assist you in converting images to paintings, cartoon images, and it can also be used to sharpen the input image.
+The `Image Painting Assistant` node can assist you in converting images to paintings, cartoon images, and it can also be used to sharpen and lighten the input image.
 
 <div align="center">
 
@@ -13,7 +13,7 @@ The `Image Painting Assistant` node can assist you in converting images to paint
 
 ## Inspyrenet Rembg Assistant
 
-The `Inspyrenet Rembg Assistant` node can be used to ensure that the original background of an image doesn't reappear when the image is inputed into comfyUI nodes which do not retain the alpha channel in images like the Video Combine custom node.
+The `Inspyrenet Rembg Assistant` node can be used to ensure that the original background of an image doesn't reappear when the image is inputed into comfyUI nodes that do not retain the alpha channel in images like the Video Combine custom node.
 
 <div align="center">
 
