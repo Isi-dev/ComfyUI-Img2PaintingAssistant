@@ -10,6 +10,6 @@ Repository = "https://github.com/Isi-dev/ComfyUI-Img2PaintingAssistant"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "isi"
 DisplayName = "ComfyUI-Img2PaintingAssistant"
 Icon = ""
