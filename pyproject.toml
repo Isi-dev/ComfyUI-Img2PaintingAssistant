@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-img2paintingassistant"
+description = "These are ComfyUI nodes to assist in converting images to paintings and to assist the Inspyrenet Rembg node to totally remove, or replace with a color, the original background from images so that the background does not reappear in videos or in nodes that do not retain the alpha channel in rgba images."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "numpy", "opencv-python"]
+
+[project.urls]
+Repository = "https://github.com/Isi-dev/ComfyUI-Img2PaintingAssistant"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Img2PaintingAssistant"
+Icon = ""
