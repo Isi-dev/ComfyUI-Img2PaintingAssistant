@@ -19,3 +19,15 @@ The `Inspyrenet Rembg Assistant` node can be used to ensure that the original ba
 
 <img src="illustratingNeed4InspyreNetAssitant.png" /> <br></br>
 </div>
+
+## Installation
+
+You can install the nodes with the ComfyUI Manager by searching with the following title:
+
+```
+Image to Painting and Inspyrenet Assistant Nodes
+```
+
+## Disclaimer
+ 
+I am not responsible for any user-generated content. Users are fully responsible for their actions when using these nodes. I don't have any legal affiliation with or accountability for users' behaviors. It is crucial to use these nodes responsibly, following both ethical and legal standards.
