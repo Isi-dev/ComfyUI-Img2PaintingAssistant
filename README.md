@@ -9,6 +9,9 @@ The `Image Painting Assistant` node can assist you in converting images to paint
 
 <img src="Img2PaintingCartoonSharpened.png" /> <br></br>
 <img src="nature.png" />
+
+You can watch a video about this node [here](https://youtu.be/-hUh3UPSuuE) 
+
 </div>
 
 ## Inspyrenet Rembg Assistant
