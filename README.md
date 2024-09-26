@@ -21,6 +21,9 @@ The `Inspyrenet Rembg Assistant` node can be used to ensure that the original ba
 <div align="center">
 
 <img src="illustratingNeed4InspyreNetAssitant.png" /> <br></br>
+
+You can watch a video about this node [here](https://youtu.be/5jbRpyQilRI) 
+
 </div>
 
 ## Installation
