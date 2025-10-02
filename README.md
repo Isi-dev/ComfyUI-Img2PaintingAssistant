@@ -10,8 +10,6 @@ The `Image Painting Assistant` node can assist you in converting images to paint
 <img src="Img2PaintingCartoonSharpened.png" /> <br></br>
 <img src="nature.png" />
 
-You can watch a video about this node [here](https://youtu.be/-hUh3UPSuuE) 
-
 </div>
 
 ## Inspyrenet Rembg Assistant
@@ -22,7 +20,6 @@ The `Inspyrenet Rembg Assistant` node can be used to ensure that the original ba
 
 <img src="illustratingNeed4InspyreNetAssitant.png" /> <br></br>
 
-You can watch a video about this node [here](https://youtu.be/5jbRpyQilRI) 
 
 </div>
 
